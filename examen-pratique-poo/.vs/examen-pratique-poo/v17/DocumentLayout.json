@@ -1,38 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\",
+  "WorkspaceRootPath": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|c:\\users\\2433259\\documents\\code\\prog2\\examen-pratique-poo\\examen-pratique-poo\\examen-pratique-poo\\simulateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|solutionrelative:examen-pratique-poo\\simulateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|c:\\users\\2433259\\documents\\code\\prog2\\examen-pratique-poo\\examen-pratique-poo\\examen-pratique-poo\\piecedemusique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|solutionrelative:examen-pratique-poo\\piecedemusique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|c:\\users\\2433259\\documents\\code\\prog2\\examen-pratique-poo\\examen-pratique-poo\\examen-pratique-poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|c:\\users\\vincentmorin\\codesource\\correction\\poo_h2025\\gr20\\pratique_examen\\examen-pratique-poo_alex\\examen-pratique-poo\\examen-pratique-poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|solutionrelative:examen-pratique-poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|c:\\users\\2433259\\documents\\code\\prog2\\examen-pratique-poo\\examen-pratique-poo\\examen-pratique-poo\\corde.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|solutionrelative:examen-pratique-poo\\corde.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|c:\\users\\vincentmorin\\codesource\\correction\\poo_h2025\\gr20\\pratique_examen\\examen-pratique-poo_alex\\examen-pratique-poo\\examen-pratique-poo\\piecedemusique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|solutionrelative:examen-pratique-poo\\piecedemusique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|c:\\users\\2433259\\documents\\code\\prog2\\examen-pratique-poo\\examen-pratique-poo\\examen-pratique-poo\\musicien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|c:\\users\\vincentmorin\\codesource\\correction\\poo_h2025\\gr20\\pratique_examen\\examen-pratique-poo_alex\\examen-pratique-poo\\examen-pratique-poo\\musicien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|solutionrelative:examen-pratique-poo\\musicien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|c:\\users\\2433259\\documents\\code\\prog2\\examen-pratique-poo\\examen-pratique-poo\\examen-pratique-poo\\violon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|solutionrelative:examen-pratique-poo\\violon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|c:\\users\\2433259\\documents\\code\\prog2\\examen-pratique-poo\\examen-pratique-poo\\examen-pratique-poo\\instrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|c:\\users\\vincentmorin\\codesource\\correction\\poo_h2025\\gr20\\pratique_examen\\examen-pratique-poo_alex\\examen-pratique-poo\\examen-pratique-poo\\instrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|solutionrelative:examen-pratique-poo\\instrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|c:\\users\\2433259\\documents\\code\\prog2\\examen-pratique-poo\\examen-pratique-poo\\examen-pratique-poo\\guitare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|c:\\users\\vincentmorin\\codesource\\correction\\poo_h2025\\gr20\\pratique_examen\\examen-pratique-poo_alex\\examen-pratique-poo\\examen-pratique-poo\\guitare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|solutionrelative:examen-pratique-poo\\guitare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|c:\\users\\vincentmorin\\codesource\\correction\\poo_h2025\\gr20\\pratique_examen\\examen-pratique-poo_alex\\examen-pratique-poo\\examen-pratique-poo\\simulateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|solutionrelative:examen-pratique-poo\\simulateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|c:\\users\\vincentmorin\\codesource\\correction\\poo_h2025\\gr20\\pratique_examen\\examen-pratique-poo_alex\\examen-pratique-poo\\examen-pratique-poo\\violon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|solutionrelative:examen-pratique-poo\\violon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|c:\\users\\vincentmorin\\codesource\\correction\\poo_h2025\\gr20\\pratique_examen\\examen-pratique-poo_alex\\examen-pratique-poo\\examen-pratique-poo\\corde.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C258915A-DE01-40DA-B326-2749A4BD9433}|examen-pratique-poo\\examen-pratique-poo.csproj|solutionrelative:examen-pratique-poo\\corde.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,21 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\Program.cs",
               "RelativeDocumentMoniker": "examen-pratique-poo\\Program.cs",
-              "ToolTip": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\Program.cs",
+              "ToolTip": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\Program.cs",
               "RelativeToolTip": "examen-pratique-poo\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T17:00:51.369Z",
               "IsPinned": true,
@@ -64,52 +60,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Instrument.cs",
-              "DocumentMoniker": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\Instrument.cs",
+              "DocumentMoniker": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\Instrument.cs",
               "RelativeDocumentMoniker": "examen-pratique-poo\\Instrument.cs",
-              "ToolTip": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\Instrument.cs",
+              "ToolTip": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\Instrument.cs",
               "RelativeToolTip": "examen-pratique-poo\\Instrument.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAQwEcAAAAHAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAuwCgAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T17:03:39.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Violon.cs",
-              "DocumentMoniker": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\Violon.cs",
+              "DocumentMoniker": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\Violon.cs",
               "RelativeDocumentMoniker": "examen-pratique-poo\\Violon.cs",
-              "ToolTip": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\Violon.cs",
+              "ToolTip": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\Violon.cs",
               "RelativeToolTip": "examen-pratique-poo\\Violon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T17:39:05.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Simulateur.cs",
-              "DocumentMoniker": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\Simulateur.cs",
+              "DocumentMoniker": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\Simulateur.cs",
               "RelativeDocumentMoniker": "examen-pratique-poo\\Simulateur.cs",
-              "ToolTip": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\Simulateur.cs",
+              "ToolTip": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\Simulateur.cs",
               "RelativeToolTip": "examen-pratique-poo\\Simulateur.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAADYAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDMAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T19:02:52.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Guitare.cs",
-              "DocumentMoniker": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\Guitare.cs",
+              "DocumentMoniker": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\Guitare.cs",
               "RelativeDocumentMoniker": "examen-pratique-poo\\Guitare.cs",
-              "ToolTip": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\Guitare.cs",
+              "ToolTip": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\Guitare.cs",
               "RelativeToolTip": "examen-pratique-poo\\Guitare.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAANAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T17:58:21.744Z",
               "EditorCaption": ""
@@ -118,37 +114,37 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PieceDeMusique.cs",
-              "DocumentMoniker": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\PieceDeMusique.cs",
+              "DocumentMoniker": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\PieceDeMusique.cs",
               "RelativeDocumentMoniker": "examen-pratique-poo\\PieceDeMusique.cs",
-              "ToolTip": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\PieceDeMusique.cs",
+              "ToolTip": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\PieceDeMusique.cs",
               "RelativeToolTip": "examen-pratique-poo\\PieceDeMusique.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAC4AAAAoAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAiwCkAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T18:37:04.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Musicien.cs",
-              "DocumentMoniker": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\Musicien.cs",
+              "DocumentMoniker": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\Musicien.cs",
               "RelativeDocumentMoniker": "examen-pratique-poo\\Musicien.cs",
-              "ToolTip": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\Musicien.cs",
+              "ToolTip": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\Musicien.cs",
               "RelativeToolTip": "examen-pratique-poo\\Musicien.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC4AAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAswBkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T18:17:43.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Corde.cs",
-              "DocumentMoniker": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\Corde.cs",
+              "DocumentMoniker": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\Corde.cs",
               "RelativeDocumentMoniker": "examen-pratique-poo\\Corde.cs",
-              "ToolTip": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\Corde.cs",
+              "ToolTip": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\Corde.cs",
               "RelativeToolTip": "examen-pratique-poo\\Corde.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAuwCEAAAAdAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBYAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T17:04:49.62Z",
               "EditorCaption": ""

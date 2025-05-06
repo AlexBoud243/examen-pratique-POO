@@ -16,7 +16,7 @@ namespace examen_pratique_poo
         string Nom {  get; set; } 
         int QuantiteExp{  get; set; }
         string Prix{  get; set; }
-        Musicien Musicien { get; set; }
+      
         Random Random;
 
         public PieceDeMusique(string nom, int quantiteExp, string prix, NiveauDifficulte niveauDifficulte)
@@ -26,11 +26,9 @@ namespace examen_pratique_poo
             Prix = prix;
         }
 
-        
-
         public NiveauDifficulte TrouverNiveau()
         {
-            if(Musicien.Niveau == 1)
+            /*if(Musicien.Niveau == 1)
             {
                return NiveauDifficulte.facile;
             }
@@ -41,7 +39,7 @@ namespace examen_pratique_poo
             else
             {
                 return NiveauDifficulte.difficile;
-            }
+            }*/
         }
 
         public void RecompenseMusicien()

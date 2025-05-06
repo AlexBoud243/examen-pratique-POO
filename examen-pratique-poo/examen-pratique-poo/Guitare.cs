@@ -9,12 +9,12 @@ namespace examen_pratique_poo
 {
     internal class Guitare : Instrument
     {
-        public Guitare(string nom, int prixDachat, int nbCordes) : base(nom,prixDachat,nbCordes)
+        public Guitare(string nom, int nbCordes) : base(nom,nbCordes)
         {
-
+            Nom = TrouverNomGuitare(TypeG.Acoustique);
         }
 
-        public override string TrouverNomGuitare(TypeG typeG)
+        public string TrouverNomGuitare(TypeG typeG)
         {
             string Nom = "Guitare";
             if (typeG == TypeG.Acoustique)

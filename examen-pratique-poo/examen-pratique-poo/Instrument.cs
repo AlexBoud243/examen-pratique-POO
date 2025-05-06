@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-
-enum TypeViolon
+public enum TypeViolon
 {
     Guarneri,
     Stradivarius,
@@ -14,29 +12,28 @@ enum TypeViolon
     Giuseppe,
 }
 
-enum TypeG
+public enum TypeG
 {
     Acoustique,
     Basse,
     Electrique,
 }
 
-
-
 namespace examen_pratique_poo
 {
     internal class Instrument
     {
-        string Nom {  get; set; }
+        public string Nom {  get; set; }
         int PrixDachat {  get; set; }
         Corde corde;
         int NbCordes { get; set; }
 
 
-        public Instrument(string nom, int prixDachat, int nbCordes)
+        public Instrument(string nom, int nbCordes)
         {
             this.Nom = nom;
-            this.PrixDachat = prixDachat;
+            corde = new Corde();
+            this.PrixDachat = corde.Resistance * 200;
             this.NbCordes = nbCordes;
 
         }
@@ -57,18 +54,7 @@ namespace examen_pratique_poo
             return corde;
         }
 
-        public virtual string TrouverNomViolon(TypeViolon typeViolon)
-        {
-            Nom = string.Empty;
-            return Nom;
-        }
-
-        public virtual string TrouverNomGuitare(TypeG typeG)
-        {
-            Nom = string.Empty;
-            return Nom;
-        }
-
+ 
         public int TrouverPrixAchat()
         {
             PrixDachat = corde.Resistance * 200;

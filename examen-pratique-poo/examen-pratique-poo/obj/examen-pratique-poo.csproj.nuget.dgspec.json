@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\examen-pratique-poo.csproj": {}
+    "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\examen-pratique-poo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\examen-pratique-poo.csproj": {
+    "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\examen-pratique-poo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\examen-pratique-poo.csproj",
+        "projectUniqueName": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\examen-pratique-poo.csproj",
         "projectName": "examen-pratique-poo",
-        "projectPath": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\examen-pratique-poo.csproj",
-        "packagesPath": "C:\\Users\\2433259\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2433259\\Documents\\Code\\Prog2\\examen-pratique-POO\\examen-pratique-poo\\examen-pratique-poo\\obj\\",
+        "projectPath": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\examen-pratique-poo.csproj",
+        "packagesPath": "C:\\Users\\VincentMorin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VincentMorin\\codesource\\Correction\\POO_h2025\\Gr20\\Pratique_Examen\\examen-pratique-POO_Alex\\examen-pratique-poo\\examen-pratique-poo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\2433259\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\VincentMorin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

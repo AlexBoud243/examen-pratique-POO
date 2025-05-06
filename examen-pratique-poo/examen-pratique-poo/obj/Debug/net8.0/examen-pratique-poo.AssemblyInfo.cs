@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("examen-pratique-poo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16fea5d8c759d7dd3cfbdbd4eb7fa7dd23e31267")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45fc75b24889f2ab76befe8747288ed22710f17b")]
 [assembly: System.Reflection.AssemblyProductAttribute("examen-pratique-poo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("examen-pratique-poo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

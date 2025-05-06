@@ -9,6 +9,12 @@
     IMPORTANT - SI CETTE PARTIE N'EST PAS REMPLIE
     IL N'Y AURA PAS DE CORRECTION ( DONC 0 ) =)
 
+
+    TODO : 
+    - Surcharge des opérateurs  + projet test sur la surcharge
+    - Terminer le simulateur ( faire les fonctionnalités plus facile, exemple : réparer )
+    - Changer de niveau, à revoir avec Vincent
+    - Piece à compléter
 */
 /**********************************************/
 namespace examen_pratique_poo

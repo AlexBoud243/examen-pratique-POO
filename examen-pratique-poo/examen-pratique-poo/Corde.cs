@@ -20,6 +20,13 @@ namespace examen_pratique_poo
             this.NbUtilisation = nbUtilisation;
         }
 
+        public Corde()
+        {
+            this.Resistance = Rand.Next(1,11);
+            this.Durabilite = Resistance;
+            this.NbUtilisation = 10;
+        }
+
         public int TrouverDurabilite()
         {
             Durabilite = Resistance * 2;

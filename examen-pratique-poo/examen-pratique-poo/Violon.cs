@@ -5,14 +5,18 @@ using System.Text;
 using System.Threading.Tasks;
 namespace examen_pratique_poo
 {
-    internal class Violon : Instrument
+    public class Violon : Instrument
     {
-        public Violon(string nom, int prixDachat, int nbCordes) : base(nom,prixDachat,nbCordes)
+        public Violon(string nom, int nbCordes) : base(nom,nbCordes)
         {
 
         }
 
-        public override string TrouverNomViolon(TypeViolon typeViolon)
+        public Violon() : base("", 4)
+        {
+            Nom = TrouverNomViolon(TypeViolon.Giuseppe);
+        }
+        public string TrouverNomViolon(TypeViolon typeViolon)
         {
             string Nom = "Violon";
             if (typeViolon == TypeViolon.Guarneri)
