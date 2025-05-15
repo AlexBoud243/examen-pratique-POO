@@ -13,11 +13,42 @@ namespace examen_pratique_poo
         
         public Simulateur()
         {
-            musicien = new Musicien("Alex", new Violon(), 1, 1000);
+            musicien = new Musicien("Alex", new Violon(), 1000);
         }
 
+        void ChoisirMeilleurInstrument()
+        {
+            int nbInstrumentGenerer = 5;
+            //Generer 5 instruments 
+            List<Instrument> instruments = new List<Instrument>();
+
+            for (int i = 0; i < nbInstrumentGenerer; i++)
+            {
+                int choixRandom = Program.rand.Next(2);
+                if (choixRandom == 0)
+                    instruments.Add(new Guitare("", 6));
+                else
+                    instruments.Add(new Violon());
+            }
+
+            //Afficher les 5
+
+
+            //Choisir le meilleur
+            Instrument leMeilleur = instruments[0];
+            for (int i = 1; i < instruments.Count; i++)
+            {
+                if (instruments[i] > leMeilleur)
+                    leMeilleur = instruments[i];
+            }
+
+            //affiche le meilleur
+            musicien.Instrument = leMeilleur;
+        }
         public void LancerSimulation()
         {
+            ChoisirMeilleurInstrument();
+  
             int choix = 0;
             int choixPiece = 0;
             do
@@ -35,10 +66,7 @@ namespace examen_pratique_poo
                 Console.Clear();
                 switch (choix)
                 {
-                    case 1:
-                        Console.WriteLine("Voici l'info de mon musicien ... \n");
-                        Console.WriteLine(musicien);
-                        break;
+                    case 1: Console.WriteLine(musicien); break;
                     case 2:
                         Console.WriteLine("voici les pieces que vous possedez :");
                         Console.WriteLine(musicien.InfoPieces());
@@ -55,6 +83,30 @@ namespace examen_pratique_poo
                         Console.WriteLine("L'instrument a été réparé");
                         break;
                     case 4:
+
+                        //version 2
+                        /*List<PieceMusique> pieces = new List<PieceMusique>();
+
+                        //Créer les 3 pièces
+                        for (int i = 0; i < nbPieceDispo; i++)
+                            pieces.Add(new PieceMusique());
+
+                        //Afficher les 3 pièce
+                        for (int i = 0; i < nbPieceDispo; i++)
+                            Console.WriteLine($"{i} - {pieces[i]} ");
+
+                        int choix2 = Convert.ToInt32(Console.ReadLine());
+
+                        if (pieces[choix2].Prix <= musicienPro.Montant)
+                        {
+                            musicienPro.Montant -= pieces[choix2].Prix;
+                            musicienPro.AjouterChanson(pieces[choix2]);
+                            Console.WriteLine($"Cool tu a acheté la chanson :{pieces[choix2].Nom}\n");
+                        }
+                        else
+                            Console.WriteLine("Pas asser d'argent ,va faire un show!!\n");
+                        */
+
                         PieceDeMusique pieceDeMusique1 = new PieceDeMusique();
                         PieceDeMusique pieceDeMusique2 = new PieceDeMusique();
                         PieceDeMusique pieceDeMusique3 = new PieceDeMusique();
@@ -90,9 +142,7 @@ namespace examen_pratique_poo
                         break;
                 }
             }
-            while (choix != 3);
-
-
+            while (choix != 6);
 
         }
 

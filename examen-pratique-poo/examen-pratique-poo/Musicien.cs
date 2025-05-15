@@ -10,18 +10,17 @@ namespace examen_pratique_poo
     {
         string Nom {  get; set; }
         public Instrument Instrument {  get; set; } 
-        public int Niveau { get; set; } = 1;
+        public int Niveau { get; set; } 
         public int MontantArgent {  get; set; }
         int Experience { get; set; }
         public List<PieceDeMusique> pieceDeMusiques { get; set; }
 
-        public Musicien(string nom, Instrument instrumentPrefere, int niveau, int montantArgent)
+        public Musicien(string nom, Instrument instrumentPrefere, int montantArgent )
         {
             Nom = nom;
             Instrument = instrumentPrefere;
-            Niveau = niveau;
+            Niveau = 1;
             MontantArgent = montantArgent;
-            this.pieceDeMusiques = pieceDeMusiques;
             pieceDeMusiques = new List<PieceDeMusique>();
             pieceDeMusiques.Add(new PieceDeMusique(NiveauDifficulte.facile));
         }
@@ -46,8 +45,6 @@ namespace examen_pratique_poo
             {
                 Niveau++;
                 Experience =-100;
-
-
             }
 
             return Niveau;
@@ -56,10 +53,9 @@ namespace examen_pratique_poo
         public override string ToString()
         {
             string infoMusicien = string.Empty;
-            ChangerDeNiveau();
-            InfoPieces();
-            infoMusicien += $" Le musicien {Nom} \n Adore l'instrument{Instrument
-                }  \n Il possede un nivau d'expertise de {Niveau} \n Une fortne de {MontantArgent} $ \n et une experinece de {Experience} \n";
+            ChangerDeNiveau();        
+            infoMusicien += $" Le musicien {Nom} \n Adore l'instrument{Instrument}  \n Il possede un nivau d'expertise de {Niveau} \n Une fortne de {MontantArgent} $ \n et une experinece de {Experience} \n";
+            infoMusicien += InfoPieces();
             return infoMusicien;
         }
     }

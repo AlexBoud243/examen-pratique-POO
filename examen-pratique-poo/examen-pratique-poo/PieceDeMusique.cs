@@ -15,9 +15,7 @@ namespace examen_pratique_poo
     {
         string[] noms = { "U2", "ACDC", "ED sheran", "bruno mars", "LAdy gaga", "jason derulo", "david simard", "les deux freres", "les trois accord" };
         public string Nom { get; set; }
-        int[] quantite = { 200, 100, 150 };
-        int QuantiteExp { get; set; }
-        int[] prix = { 100, 111, 200, 300, 400, 120, 340 };
+        public int QuantiteExp { get; set; }
         public int Prix { get; set; }
         NiveauDifficulte NiveauDifficulte { get; set; }
 
@@ -32,7 +30,7 @@ namespace examen_pratique_poo
 
         public PieceDeMusique()
         {
-            NiveauDifficulte = (NiveauDifficulte)random.Next(0,3) ;
+            NiveauDifficulte = (NiveauDifficulte)random.Next(0, 3);
             Nom = noms[random.Next(0, noms.Length)];
             InitialiseValeur();
         }
@@ -54,9 +52,7 @@ namespace examen_pratique_poo
         }
 
         public override string ToString()
-        {
-            //TrouverNiveau();
-            //RecompenseMusicien();
+        {  
             string infoPiece = string.Empty;
             infoPiece += $"La piece {Nom} ,  possede une quantité d'experience de {QuantiteExp} et  coute {Prix} $";
             return infoPiece;

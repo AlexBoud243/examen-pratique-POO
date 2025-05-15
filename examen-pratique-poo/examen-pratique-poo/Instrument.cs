@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -72,6 +73,17 @@ namespace examen_pratique_poo
             string infoInstrument = string.Empty;
             infoInstrument += $"L'instrument {Nom} a un prix d'achat de {PrixDachat} $ et a {NbCordes} cordes ";
             return infoInstrument;  
+        }
+
+
+        public static bool operator >(Instrument instrument1, Instrument instrument2)
+        {
+            return instrument1.corde.Resistance > instrument2.corde.Resistance;
+        }
+
+        public static bool operator <(Instrument instrument1, Instrument instrument2)
+        {
+            return instrument1.corde.Resistance < instrument2.corde.Resistance;
         }
 
     }

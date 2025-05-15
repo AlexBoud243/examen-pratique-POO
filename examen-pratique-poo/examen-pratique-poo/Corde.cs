@@ -8,13 +8,12 @@ namespace examen_pratique_poo
 {
     public class Corde
     {
-        Random Rand = new Random();
-        public int Resistance {  get; set; } 
+        public int Resistance { get; set; }
         public int Durabilite { get; set; }
 
         public Corde()
         {
-            this.Resistance = Rand.Next(1,11);
+            this.Resistance = Program.rand.Next(1, 11);
             this.Durabilite = Resistance * 2;
 
         }
