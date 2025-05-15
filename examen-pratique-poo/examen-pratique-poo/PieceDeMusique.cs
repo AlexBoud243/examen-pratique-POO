@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-enum NiveauDifficulte
+public enum NiveauDifficulte
 {
     facile,
     moyen,
@@ -11,62 +11,55 @@ enum NiveauDifficulte
 }
 namespace examen_pratique_poo
 {
-    internal class PieceDeMusique
+    public class PieceDeMusique
     {
-        string Nom {  get; set; } 
-        int QuantiteExp{  get; set; }
-        string Prix{  get; set; }
-      
-        Random Random;
+        string[] noms = { "U2", "ACDC", "ED sheran", "bruno mars", "LAdy gaga", "jason derulo", "david simard", "les deux freres", "les trois accord" };
+        public string Nom { get; set; }
+        int[] quantite = { 200, 100, 150 };
+        int QuantiteExp { get; set; }
+        int[] prix = { 100, 111, 200, 300, 400, 120, 340 };
+        public int Prix { get; set; }
+        NiveauDifficulte NiveauDifficulte { get; set; }
 
-        public PieceDeMusique(string nom, int quantiteExp, string prix, NiveauDifficulte niveauDifficulte)
+        Random random = new Random();
+
+        public PieceDeMusique(NiveauDifficulte niveauDifficulte)
         {
-            Nom = nom;
-            QuantiteExp = quantiteExp;
-            Prix = prix;
+            NiveauDifficulte = niveauDifficulte;
+            Nom = noms[random.Next(0, noms.Length)];
+            InitialiseValeur();
         }
 
-        public NiveauDifficulte TrouverNiveau()
+        public PieceDeMusique()
         {
-            /*if(Musicien.Niveau == 1)
-            {
-               return NiveauDifficulte.facile;
-            }
-            else if(Musicien.Niveau == 2 || Musicien.Niveau == 3)
-            {
-                return NiveauDifficulte.moyen;
-            }
-            else
-            {
-                return NiveauDifficulte.difficile;
-            }*/
+            NiveauDifficulte = (NiveauDifficulte)random.Next(0,3) ;
+            Nom = noms[random.Next(0, noms.Length)];
+            InitialiseValeur();
         }
 
-        public void RecompenseMusicien()
+        public void InitialiseValeur()
         {
-            NiveauDifficulte niveauDifficulte = TrouverNiveau();
-
-            switch (niveauDifficulte)
+            switch (NiveauDifficulte)
             {
                 case NiveauDifficulte.facile:
-                    QuantiteExp += Random.Next(10, 31); Prix += 200;
+                    QuantiteExp += random.Next(10, 31); Prix += 200;
                     break;
                 case NiveauDifficulte.moyen:
-                    QuantiteExp += Random.Next(60, 81); Prix += 400;
+                    QuantiteExp += random.Next(60, 81); Prix += 400;
                     break;
                 case NiveauDifficulte.difficile:
-                    QuantiteExp += Random.Next(100, 151); Prix += 600;
+                    QuantiteExp += random.Next(100, 151); Prix += 600;
                     break;
             }
         }
 
         public override string ToString()
         {
-            TrouverNiveau();
-            RecompenseMusicien();
+            //TrouverNiveau();
+            //RecompenseMusicien();
             string infoPiece = string.Empty;
-            infoPiece += $"La piece {Nom} ,  possede une quantité d'experience de {QuantiteExp}";
-            return infoPiece;  
+            infoPiece += $"La piece {Nom} ,  possede une quantité d'experience de {QuantiteExp} et  coute {Prix} $";
+            return infoPiece;
 
         }
     }

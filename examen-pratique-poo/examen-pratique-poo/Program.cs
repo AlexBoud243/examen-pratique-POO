@@ -11,7 +11,6 @@
 
 
     TODO : 
-    - Surcharge des opérateurs  + projet test sur la surcharge
     - Terminer le simulateur ( faire les fonctionnalités plus facile, exemple : réparer )
     - Changer de niveau, à revoir avec Vincent
     - Piece à compléter
@@ -24,7 +23,7 @@ namespace examen_pratique_poo
         static void Main(string[] args)
         {
             Simulateur simulateur = new Simulateur();
-            Console.WriteLine(simulateur);
+            simulateur.LancerSimulation();
         }
     }
 }

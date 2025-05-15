@@ -6,20 +6,38 @@ using System.Threading.Tasks;
 
 namespace examen_pratique_poo
 {
-    internal class Musicien
+    public class Musicien
     {
         string Nom {  get; set; }
-        Instrument InstrumentPrefere {  get; set; } 
+        public Instrument Instrument {  get; set; } 
         public int Niveau { get; set; } = 1;
-        int MontantArgent {  get; set; }
+        public int MontantArgent {  get; set; }
         int Experience { get; set; }
+        public List<PieceDeMusique> pieceDeMusiques { get; set; }
 
         public Musicien(string nom, Instrument instrumentPrefere, int niveau, int montantArgent)
         {
             Nom = nom;
-            InstrumentPrefere = instrumentPrefere;
+            Instrument = instrumentPrefere;
             Niveau = niveau;
             MontantArgent = montantArgent;
+            this.pieceDeMusiques = pieceDeMusiques;
+            pieceDeMusiques = new List<PieceDeMusique>();
+            pieceDeMusiques.Add(new PieceDeMusique(NiveauDifficulte.facile));
+        }
+
+        public string InfoPieces()
+        {
+            int i = 1;
+            string info = string.Empty;
+
+            foreach(PieceDeMusique pieceDeMusique in pieceDeMusiques)
+            {
+
+                info += i + " - " + pieceDeMusique;
+                i++;
+            }
+            return info;
         }
 
         public int ChangerDeNiveau()
@@ -39,7 +57,9 @@ namespace examen_pratique_poo
         {
             string infoMusicien = string.Empty;
             ChangerDeNiveau();
-            infoMusicien += $" Le musicien {Nom} \n Adore l'instrument{InstrumentPrefere}  \n Il possede un nivau d'expertise de {Niveau} \n Une fortne de {MontantArgent} $ \n et une experinece de {Experience} \n";
+            InfoPieces();
+            infoMusicien += $" Le musicien {Nom} \n Adore l'instrument{Instrument
+                }  \n Il possede un nivau d'expertise de {Niveau} \n Une fortne de {MontantArgent} $ \n et une experinece de {Experience} \n";
             return infoMusicien;
         }
     }

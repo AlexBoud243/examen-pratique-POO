@@ -21,7 +21,7 @@ public enum TypeG
 
 namespace examen_pratique_poo
 {
-    internal class Instrument
+    public  class Instrument
     {
         public string Nom {  get; set; }
         int PrixDachat {  get; set; }
@@ -33,9 +33,9 @@ namespace examen_pratique_poo
         {
             this.Nom = nom;
             corde = new Corde();
-            this.PrixDachat = corde.Resistance * 200;
+            PrixDachat = corde.Resistance * 200;
             this.NbCordes = nbCordes;
-
+           
         }
 
         public Corde ResistanceCorde( Corde c1, Corde c2 )
@@ -52,6 +52,11 @@ namespace examen_pratique_poo
             }
 
             return corde;
+        }
+
+        public void Reparer()
+        {
+            corde.Reparer();
         }
 
  
